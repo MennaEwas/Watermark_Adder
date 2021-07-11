@@ -5,7 +5,7 @@
 1. **Before**    
    ![rainbowTest](/rainbowTest.jpg)  
    **After in Intense mode**  
-   ![rainbowTestIntense](/images/rainbowTestIntense.jpg)<\br>
+   ![rainbowTestIntense](/images/rainbowTestIntense.jpg)  
    **After in Normal mode**  
    ![rainbowTEstNormal](images/rainbowTestNormal.jpg)  
 2. **Before**  
