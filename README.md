@@ -9,8 +9,10 @@
    After in Normal mode
    ![rainbowTEstNormal](images/rainbowTestNormal.jpg)
 2. Before
+
    ![solidTest](solidTest.png)
    After in Intense mode
+
    ![solidTestIntense](images/solidTestIntense.png)
    After in Normal mode
    ![solidTestNormal](images/solidTestNormal.png)
