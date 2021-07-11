@@ -21,7 +21,7 @@ class WatermarkAdder:
         self.__locationMode = sameLocation
 
     @staticmethod
-    def __load_image(imageDir):
+    def __load_image(imageDir) -> np.ndarray:
         """
         loads the image using PIL and converts it to a numpy array
 
@@ -34,7 +34,7 @@ class WatermarkAdder:
         imgArray = np.array(img)
         return imgArray
 
-    def __make_watermark_array(self, watermark: str) -> np.core._multiarray_umath.ndarray:
+    def __make_watermark_array(self, watermark: str) -> np.ndarray:
         """
         creates the image array of the string in suitable dimensions according to the images resolution
         using PIL draw function to create an image with the string on it then using that as a mask
@@ -61,7 +61,7 @@ class WatermarkAdder:
         return new
 
     @staticmethod
-    def __create_mask(img, temp):
+    def __create_mask(img: np.ndarray, temp: np.ndarray):
         """
         creates a numpy mask of the values that get over 255 and fill their places with -40
 
@@ -113,7 +113,7 @@ class WatermarkAdder:
                     # adding the watermark numpy array to part of the image to make the needed pixel lighter
                     temp = np.add(self.__image[verticalShift + w * i:verticalShift + w * i + w,
                                   horizontalShift + h * j:horizontalShift + h * j + h], self.__watermark)
-                    # creating the mask to remove any above 255 color values to make them darker insted of lighter
+                    # creating the mask to remove any above 255 color values to make them darker instead of lighter
                     mask = self.__create_mask(self.__image[verticalShift + w * i:verticalShift + w * i + w,
                                               horizontalShift + h * j:horizontalShift + h * j + h], temp)
                     # adding the maks and the temp to change all the needed pixels in the right way
