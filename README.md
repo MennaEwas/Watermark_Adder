@@ -2,18 +2,18 @@
 
 ## Examples
 
-1. Before<\br>
-   ![rainbowTest](/rainbowTest.jpg)<\br>
-   After in Intense mode<\br>
+1. **Before**    
+   ![rainbowTest](/rainbowTest.jpg)  
+   **After in Intense mode**  
    ![rainbowTestIntense](/images/rainbowTestIntense.jpg)<\br>
-   After in Normal mode<\br>
-   ![rainbowTEstNormal](images/rainbowTestNormal.jpg)<\br>
-2. Before<\br>
-   ![solidTest](solidTest.png)<\br>
-   After in Intense mode<\br>
-   ![solidTestIntense](images/solidTestIntense.png)<\br>
-   After in Normal mode<\br>
-   ![solidTestNormal](images/solidTestNormal.png)<\br>
+   **After in Normal mode**  
+   ![rainbowTEstNormal](images/rainbowTestNormal.jpg)  
+2. **Before**  
+   ![solidTest](solidTest.png)  
+   **After in Intense mode**  
+   ![solidTestIntense](images/solidTestIntense.png)  
+   **After in Normal mode**  
+   ![solidTestNormal](images/solidTestNormal.png)  
 
 ## How
 
