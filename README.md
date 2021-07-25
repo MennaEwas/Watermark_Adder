@@ -17,5 +17,5 @@
 
 ## How
 
-This was done by creating a matrix with a suitable size in proportion to the original image of the watermark that had the value 20 for its R G B values to lighten up when there would be a pixel of the water mark then adding this matrix to the original image in the needed parts.
-for the places where adding 20 will cause the color value to overflow 255 it will be replaces with -40 to darken it instead.
+This was done by creating a matrix with a suitable size in proportion to the original image of the watermark that had the value 20 for its R G B values to lighten up where there would be a pixel of the watermark then adding this matrix to the original image in the needed parts.
+for the places where adding 20 will cause the color value to overflow ((go over 255)) it will be replaces with -40 to darken it instead.
